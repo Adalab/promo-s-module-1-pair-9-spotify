@@ -1,0 +1,22 @@
+:root {
+    font-family: "Roboto";
+}
+.black {
+    background-color:black;
+}
+.cabecera {
+    display:flex;
+    justify-content: space-between;
+}
+.blue {
+    background-color: hsl(212, 85%, 63%);
+    background-repeat: no-repeat;
+    background-image: url(./premium_dancer.png)
+    
+}
+.logo {
+    width: 100px;
+}
+.menu {
+    width: 30px;
+}
