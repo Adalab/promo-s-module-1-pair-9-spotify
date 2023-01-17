@@ -13,7 +13,7 @@
     <header class="black cabecera"> 
         <img class= "logo" src="./logo.png" alt="logo de spotify">
         <img class="menu" src="./menu-icon.png" alt="menú">      
-     </header>
+    </header>
     <main>
         <section class="blue">
             <h1>
@@ -28,46 +28,60 @@
                 </small>
             </p>
         </section>
-        <section>
-            <h2>
+        <section class="section__premium">
+            <h2 class="subtitle">
                 ¿Por qué pasarte a Premium?
             </h2>
-            <div>
-                <img src="./benefit-1.png" alt="icono música">
-                <h3>Descarga música.</h3>
-                <p>Llévala siempre contigo.</p>
+            <div class="benefit">
+                <img class="icon" src="./benefit-1.png" alt="icono música">
+                <div>
+                    <h3 class="epigraph">Descarga música.</h3>
+                    <p>Llévala siempre contigo.</p>
+                </div>
             </div>
-            <div>
-                <img src="./benefit-2.png" alt="icono móvil">
-                <h3>Sin anuncios.</h3>
-                <p>Disfruta de música sin interrupciones.</p>
+            <div class="benefit">
+                <img class="icon" src="./benefit-2.png" alt="icono móvil">
+                <div>
+                    <h3 class="epigraph">Sin anuncios.</h3>
+                    <p>Disfruta de música sin interrupciones.</p>
+                </div>
             </div>
-            <div>
-                <img src="./benefit-3.png" alt="icono notas musicales">
-                <h3>Escucha lo que quieras</h3>
-                <p>Incluso en el móvil.</p>
+            <div class="benefit">
+                <img class="icon" src="./benefit-3.png" alt="icono notas musicales">
+                <div>
+                    <h3 class="epigraph">Escucha lo que quieras</h3>
+                    <p>Incluso en el móvil.</p>
+                </div>
             </div>
-            <div>
-                <img src="./benefit-4.png" alt="icono play">
-                <h3>Salta todas las canciones que quieras.</h3>
-                <p>Simplemente dale a siguiente.</p>
+            <div class="benefit">
+                <img class="icon" src="./benefit-4.png" alt="icono play">
+                <div>
+                    <h3 class="epigraph">Salta todas las canciones que quieras.</h3>
+                    <p>Simplemente dale a siguiente.</p>
+                </div>
             </div>
         </section>
     </main>
-    <footer class="black">
-     <small>
-        <nav>
-            <a href="">Legal</a>
-            <a href="">Cookies</a>
-            <a href="">Información sobre los anuncios</a>
+    <footer class="black footer">
+        <nav class="nav">
+            <ul class="unorder__list">
+                <small>
+                    <li><a href="">Legal</a></li>
+                </small>
+                <small>
+                    <li><a href="">Cookies</a></li>
+                </small>
+                <small>
+                    <li><a href="">Información sobre los anuncios</a></li>
+                </small>
+            </ul>
         </nav>
-     <div>
-        <p>
-            España <img src="./es.svg" alt="bandera de españa">
-        </p>
-        <p>© 2019 Spotify AB</p>
-     </div>
-    </small>
+        <div class="copyrigth">
+            <p class="spain">
+            España <img class="spain__flag" src="./es.svg" alt="bandera de españa">
+            </p>
+            <p>© 2019 Spotify AB</p>
+        </div>
     </footer>
    
 </body>

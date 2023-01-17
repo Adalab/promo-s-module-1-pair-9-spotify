@@ -1,22 +1,90 @@
 :root {
     font-family: "Roboto";
 }
+
 .black {
     background-color:black;
 }
+
 .cabecera {
     display:flex;
     justify-content: space-between;
 }
+
 .blue {
     background-color: hsl(212, 85%, 63%);
     background-repeat: no-repeat;
-    background-image: url(./premium_dancer.png)
-    
+    background-image: url(./premium_dancer.png);
+    height: 50vh;
+    width: 100%;
 }
+
 .logo {
     width: 100px;
 }
+
 .menu {
     width: 30px;
+}
+
+.section__premium {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefit {
+    display: flex;
+}
+
+.icon {
+    width: 20%;
+}
+
+.subtitle {
+    text-align: justify;
+    font-size: 24px;
+    padding: 24px;
+    font-weight: bold;
+}
+
+.epigraph {
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 8px;
+    color: grey;
+}
+
+.nav {
+    display: flex;
+    align-items: flex-end;
+}
+
+.unorder__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    column-gap: 16px;
+}
+
+.copyrigth {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.spain {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 16px;
+}
+
+.spain__flag {
+    width: 30%;
 }
