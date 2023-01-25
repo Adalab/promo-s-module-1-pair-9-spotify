@@ -13,19 +13,16 @@
     }
 }
 
-.section__premium {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.benefit {
-    display: flex;
+.section_premium {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
 }
 
 .icon {
     width: 20%;
+    grid-column: span 1;
+    grid-row: span 1;
 }
 
 .subtitle {
@@ -37,4 +34,12 @@
 
 .epigraph {
     font-weight: bold;
+}
+
+.subtitle {
+    grid-column: span 4;
+}
+
+.description {
+    grid-column: span 3;
 }
