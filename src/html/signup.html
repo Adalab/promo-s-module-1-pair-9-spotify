@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Spotify</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="icon" href="./assets/images/favicon.png" />
+</head>
+
+<body>
+    <section>
+        <img class="logo" src="./assets/images/logo.png" alt="logo de spotify">
+        <h1 class="title-1">Regístrate gratis para escuchar.</h1>
+        <button>
+            Registrate con Facebook
+        </button>
+        <button>
+            Registrate con Google
+        </button>
+        <hr>
+        <p>o</p>
+        <hr>
+    </section>
+    <section>
+        <h2>
+            Registrate con tu correo electrónico
+        </h2>
+        <form action="#" method="post">
+            <label class="input-label" for="email">
+                ¿Cuál es tu correo electrónico?
+                <input id="email" name="email" type="email" placeholder="Pon tu correo electrónico."/>
+            </label>
+
+            <label class="input-label" for="confirm">
+                Confirma el correo electrónico
+                <input id="confirm" name="confirm" type="email" placeholder="Vuelve a poner tu correo electrónico.">
+            </label>
+
+            <label class="input-label" for="password">
+                Crea una contraseña
+                <input id="password" name="password" type="password" placeholder="Crea una contraseña.">
+            </label>
+
+            <label class="input-label" for="name">
+                ¿Cómo quieres que te llamemos?
+                <input id="name" name="name" type="text" placeholder="Pon un nombre de perfil.">
+                <p>Esto aparece en tu perfil</p>
+            </label>
+
+            <label for="">¿Cuál es tu fecha de nacimiento?
+                <label for="date">Día</label>
+                <input id="date" name="date" type="number" placeholder="DD">
+                <label for="month">Mes</label>
+                <select name="month" id="month">
+                    <option disabled selected>Mes</option>
+                    <option value="1">Enero</option>
+                    <option value="2">Febrero</option>
+                    <option value="3">Marzo</option>
+                    <option value="4">Abril</option>
+                    <option value="5">Mayo</option>
+                    <option value="6">Junio</option>
+                    <option value="7">Julio</option>
+                    <option value="8">Agosto</option>
+                    <option value="9">Septiembre</option>
+                    <option value="10">Octubre</option>
+                    <option value="11">Noviembre</option>
+                    <option value="12">Diciembre</option>
+                </select>
+                <label for="year">Año</label>
+                <input id="year" name="year" type="number" placeholder="AAAA">
+            </label>
+
+
+
+        </form>
+    </section>
+</body>
+
+</html>
